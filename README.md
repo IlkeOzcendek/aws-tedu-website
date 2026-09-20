@@ -1,50 +1,98 @@
-# AWS TEDU — Build together
-
-A bilingual, animated introduction to **AWS Student Builder Group — TED University**, created to give the community an engaging home online.
+<p align="center">
+  <img src="assets/readme-cover.svg" width="1200" alt="AWS TEDU — Build together. Animated cubes expand and form the club emblem." />
+</p>
 
 <p align="center">
-  <img src="assets/hero-animation.svg" width="640" alt="Animated cubes forming the AWS TEDU club mark" />
+  <strong>AWS Student Builder Group — TED University</strong><br />
+  An animated, bilingual landing page for a community of curious builders.
 </p>
+
+<p align="center">
+  <a href="#english">English</a> &nbsp; · &nbsp;
+  <a href="#türkçe">Türkçe</a> &nbsp; · &nbsp;
+  <a href="https://www.instagram.com/awstedu/">Instagram ↗</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/company/awstedu/">LinkedIn ↗</a>
+</p>
+
+<p align="center">
+  <code>HTML</code> &nbsp; <code>CSS</code> &nbsp; <code>JavaScript</code> &nbsp; <code>SVG</code>
+</p>
+
+---
 
 ## English
 
-### About the project
+A small introduction to the community: what brings us together, what we want to build, and where to find us. The visual identity pairs a dark canvas with violet cubes, warm accents, and motion that carries through the page.
 
-The page introduces the club through a looping 3D cube animation, short community-focused copy, and links to its social accounts. The visual direction grew through iterative feedback on layout, typography, color, and motion.
+### Inside the experience
 
-**Built with AI assistance using OpenAI Codex.** My role was to guide the visual direction, make design decisions, review the results, and steer successive improvements. This repository shares the outcome of that collaborative process.
+| Feature | What you'll find |
+| :--- | :--- |
+| **Two languages** | Turkish and English, with a remembered language preference and direct `?lang=tr` / `?lang=en` links. |
+| **Animated identity** | A looping 3D cube sequence, a clickable logo, scroll reveals, and animated headings. |
+| **Responsive layout** | Layouts that adapt to screen size, with a smaller video asset for mobile. |
+| **Accessible interactions** | Reduced-motion support, visible keyboard focus, and a skip-to-content link. |
 
-### Features
+### Open it locally
 
-- Turkish/English switch, with language preference saved locally when browser storage is available; `?lang=tr` and `?lang=en` are also supported.
-- Responsive layout and a smaller animation asset for mobile screens.
-- Clickable logo animation, scroll reveals, animated headings, and social-card hover effects.
-- Reduced-motion support, keyboard focus styles, and a skip-to-content link.
-- Direct links to [Instagram](https://www.instagram.com/awstedu/) and [LinkedIn](https://www.linkedin.com/company/awstedu/).
+```bash
+git clone https://github.com/IlkeOzcendek/aws-tedu-website.git
+```
 
-### Run locally
+Open **`index.html`** in the downloaded folder. No installation or build step is needed.
 
-Download or clone the repository and open **`index.html`** in your browser. No installation or build step is required.
+### Design & development
 
-The site uses **HTML, CSS, and vanilla JavaScript**. `app.js` contains translations and interactions; `styles.css` defines layout and motion; `assets/` holds the club mark and animation files. It is a static site with no backend.
+**Built with AI assistance using OpenAI Codex.** I directed the visual design, made design decisions, reviewed the results, and refined the page through iterative feedback. The work evolved through changes to typography, spacing, colors, motion, and social cards.
+
+The README cover is a vector adaptation of the site's cube animation. The website uses video for its 3D sequence and HTML, CSS, and vanilla JavaScript for its interface.
+
+---
 
 ## Türkçe
 
-### Proje hakkında
+Topluluğumuzu tanıtan küçük bir başlangıç: bizi bir araya getiren merak, birlikte üretme isteği ve bize ulaşabileceğin kanallar. Koyu zemin, mor küpler, sıcak renk vurguları ve sayfa boyunca devam eden hareketler görsel kimliği oluşturuyor.
 
-**AWS Student Builder Group — TED University** için hazırlanan bu sayfa; 3B küp animasyonu, kısa tanıtım metinleri ve sosyal medya bağlantılarıyla topluluğu tanıtıyor. Yerleşim, tipografi, renk ve hareketler geri bildirimlerle adım adım geliştirildi.
+### Sayfada neler var?
 
-**OpenAI Codex ile, yapay zekâ destekli bir geliştirme süreci kullanıldı.** Ben görsel yönü belirledim, tasarım kararlarını verdim, sonuçları değerlendirdim ve geliştirme turlarını yönlendirdim. Bu depo, birlikte yürütülen sürecin sonucunu paylaşıyor.
+| Özellik | Deneyim |
+| :--- | :--- |
+| **İki dil** | Türkçe/İngilizce geçişi, hatırlanan dil tercihi ve doğrudan `?lang=tr` / `?lang=en` bağlantıları. |
+| **Hareketli kimlik** | Döngüsel 3B küp animasyonu, tıklanabilir logo, kaydırmayla beliren içerikler ve hareketli başlıklar. |
+| **Duyarlı tasarım** | Ekran boyutuna uyum sağlayan yerleşim ve mobil cihazlar için daha küçük video dosyası. |
+| **Erişilebilir etkileşimler** | Azaltılmış hareket tercihi, görünür klavye odağı ve içeriğe atlama bağlantısı. |
 
-### Özellikler ve kullanım
+### Bilgisayarında aç
 
-- Türkçe/İngilizce geçişi; tarayıcı depolaması kullanılabildiğinde hatırlanan dil tercihi ve `?lang=tr` / `?lang=en` desteği.
-- Mobil uyumlu tasarım, tıklanabilir logo animasyonu, hareketli başlıklar ve sosyal medya kartları.
-- Azaltılmış hareket tercihi, klavye odak göstergeleri ve içeriğe atlama bağlantısı.
+Depoyu indir veya yukarıdaki komutla klonla. Klasördeki **`index.html`** dosyasını tarayıcıda açman yeterli; kurulum veya derleme gerekmiyor.
 
-Depoyu indirip **`index.html`** dosyasını tarayıcıda açman yeterli. Kurulum veya derleme gerekmiyor. HTML, CSS ve sade JavaScript ile hazırlanmış statik bir site; sunucu tarafı uygulaması bulunmuyor.
+### Tasarım ve geliştirme
 
-## Credits / Katkılar
+**OpenAI Codex ile, yapay zekâ destekli bir geliştirme süreci kullanıldı.** Görsel yönü belirledim, tasarım kararlarını verdim, sonuçları değerlendirdim ve geri bildirimlerle sayfayı geliştirdim. Tipografi, boşluklar, renkler, hareketler ve sosyal medya kartları bu süreçte şekillendi.
 
-- Instagram and LinkedIn icons: [Bootstrap Icons](https://icons.getbootstrap.com/), used under the [MIT License](assets/LICENSE.bootstrap-icons.txt).
+README kapağı, sitedeki küp animasyonunun vektör uyarlaması. Web sitesindeki 3B sahne video olarak oynatılıyor; arayüz HTML, CSS ve sade JavaScript ile çalışıyor.
+
+---
+
+<details>
+<summary><strong>Project structure / Dosya yapısı</strong></summary>
+
+```text
+aws-tedu-website/
+├── index.html       # Page content / Sayfa içeriği
+├── styles.css       # Layout and motion / Tasarım ve hareket
+├── app.js           # Translations and interactions / Dil ve etkileşimler
+└── assets/          # Club mark, video, and SVG / Logo, video ve SVG
+```
+
+A static site with no backend. Language preferences are saved when browser storage is available. / Sunucu tarafı uygulaması bulunmayan statik bir site. Tarayıcı depolaması kullanılabildiğinde dil tercihi hatırlanır.
+
+</details>
+
+<details>
+<summary><strong>Credits / Katkılar</strong></summary>
+
+- Instagram and LinkedIn icons: [Bootstrap Icons](https://icons.getbootstrap.com/), used under the [MIT License](assets/LICENSE.bootstrap-icons.txt). This license applies to those icons.
 - AWS, TED University, club, Instagram, and LinkedIn names and marks remain the property of their respective owners. / İsimler ve markalar ilgili sahiplerine aittir.
+
+</details>
