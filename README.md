@@ -2,9 +2,9 @@
 
 A bilingual, animated introduction to **AWS Student Builder Group — TED University**, created to give the community an engaging home online.
 
-![AWS TEDU cube animation preview](assets/hero-poster.jpg)
-
-[Watch the animation →](assets/hero-loop.mp4)
+<p align="center">
+  <img src="assets/hero-animation.svg" width="640" alt="Animated cubes forming the AWS TEDU club mark" />
+</p>
 
 ## English
 
